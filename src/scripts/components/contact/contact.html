@@ -1,0 +1,50 @@
+<div id="contact">
+  <div class="line">
+    <h2 class="section-title">Contact Us</h2>
+    <div class="margin">
+      <div class="s-12 m-12 l-3 hide-m hide-s margin-bottom right-align">
+        <img src="images/contact.jpg" alt="">
+      </div>
+      <div class="s-12 m-12 l-4 margin-bottom right-align">
+        <h3>Custom Company</h3>
+        <address>
+          <p><strong>Adress:</strong> Responsive Street 7</p>
+          <p><strong>Country:</strong> UK, Europe</p>
+          <p><strong>E-mail:</strong> contact@sampledomain.com</p>
+        </address>
+      </div>
+      <div class="s-12 m-12 l-5">
+        <h3>Functional Ajax Contact Form</h3>
+        <!-- If you want to make a field required, add the "required" class to the input. -->
+        <form name="contactForm" class="customform ajax-form" method="post" action="email.php">
+          <div class="line">
+            <div class="margin">
+              <div class="s-12 m-12 l-6">
+                <input name="email" class="required email" placeholder="Your e-mail" title="Your e-mail" type="text" />
+                <p class="email-error form-error">Please enter your e-mail.</p>
+              </div>
+              <div class="s-12 m-12 l-6">
+                <input name="name" class="name" placeholder="Your name" title="Your name" type="text" />
+                <p class="name-error form-error">Please enter your name.</p>
+              </div>
+            </div>
+          </div>
+          <div class="s-12">
+            <textarea name="message" class="required message" placeholder="Your message" rows="3"></textarea>
+            <p class="message-error form-error">Please enter your message.</p>
+          </div>
+          <div class="s-12">
+            <input name="spam" class="required spam" placeholder="Which day comes after sunday?" title="Which day comes after sunday?"
+              type="text" />
+            <p class="spam-error form-error">Please enter the correct answer.</p>
+          </div>
+          <div class="s-12"><button class="color-btn" type="submit">Submit Button</button></div>
+          <div class="line">
+            <p class="mail-success form-success">Your message has been sent successfully.</p>
+            <p class="mail-fail form-error">Sorry, error occured this time sending your message.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

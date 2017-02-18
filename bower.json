@@ -1,0 +1,32 @@
+{
+  "name": "rivercity",
+  "version": "1.0.0",
+  "author": "pttuan1994 <pttuan1994@gmail.com>",
+  "description": "",
+  "dependencies": {
+    "jquery": "latest",
+    "jquery-ui": "latest",
+    "jquery.easy-pie-chart": "latest",
+    "angular": "latest",
+    "angular-mocks": "latest",
+    "angular-ui-router": "latest",
+    "lightcase": "latest",
+    "OwlCarousel": "latest"
+  },
+  "devDependencies": {},
+  "overrides": {
+    "lightcase": {
+      "main": [
+        "src/js/lightcase.js",
+        "src/css/lightcase.css"
+      ]
+    },
+    "OwlCarousel": {
+      "main": [
+        "owl-carousel/owl.carousel.js",
+        "owl-carousel/owl.carousel.css",
+        "owl-carousel/owl.theme.css"
+      ]
+    }
+  }
+}
